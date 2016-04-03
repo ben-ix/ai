@@ -1,2 +1,2 @@
-# ai
-COMP307 Projects
+# AI
+Collection of my COMP307 Projects
