@@ -1,5 +1,4 @@
-package Clustering;
-
+import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
@@ -55,11 +54,14 @@ public class Iris {
 
 	@Override
 	public String toString() {
-		String s = "";
+		DecimalFormat df = new DecimalFormat("#.00");
+		String s = "(";
 		for(double d: features){
-			s += d + " ";
+			s += df.format(d)+", ";
 		}
-		return s;
+		//Strip the final , 
+		s = s.substring(0, s.length()-2);
+		return s+")";
 	}
 
 	@Override
