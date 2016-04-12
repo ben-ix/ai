@@ -1,6 +1,6 @@
 # Artificial Intelligence
-Collection of my COMP307 Projects
- 
+Some elementary AI Techniques
+
 Techniques covered:  
 -K Nearest Neighbours  
 -K Means Clustering  
