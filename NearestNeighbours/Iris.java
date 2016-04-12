@@ -1,4 +1,3 @@
-package NearestNeighbours;
 import java.util.Scanner;
 
 public class Iris {
