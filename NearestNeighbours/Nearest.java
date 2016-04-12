@@ -1,4 +1,3 @@
-package NearestNeighbours;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Comparator;
@@ -61,7 +60,7 @@ public class Nearest {
 			}
 		}
 		
-		System.out.println(correct+"/"+testingSet.size()+" Correct");
+		System.out.printf("K = %d Accuracy: %d/%d\n",K,correct,testingSet.size());
 	}
 
 	/**
