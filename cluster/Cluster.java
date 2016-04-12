@@ -1,5 +1,3 @@
-package Clustering;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,6 +51,6 @@ public class Cluster{
 	
 	@Override
 	public String toString() {
-		return centroid + " Size: " + points.size();
+		return centroid + " Points: " + points.size();
 	}
 }
