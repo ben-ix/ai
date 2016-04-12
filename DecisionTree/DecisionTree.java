@@ -1,5 +1,3 @@
-package DecisionTree;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -53,7 +51,7 @@ public class DecisionTree {
 				correct += guessed.equals(desired) ? 1 : 0;
 			}
 
-			System.out.println("Accuracy " + correct +" /" + testingInstances.size());
+			System.out.println("\nAccuracy " + correct +" /" + testingInstances.size());
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -250,7 +248,11 @@ public class DecisionTree {
 		return instances;
 	}
 
-	public static void main(String[] args) {		
+	public static void main(String[] args) {
+		if(args.length!=2){
+			System.out.println("Requires two params: trainingFile testingFile");
+			return;
+		}
 		new DecisionTree(args[0], args[1]);	
 	}
 	
