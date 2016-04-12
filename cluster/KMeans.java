@@ -1,11 +1,6 @@
-package Clustering;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
-import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -74,12 +69,12 @@ public class KMeans {
 				difference += clusters[i].getMean().distanceTo(lastCentroids[i]);	
 			}
 						
-			converged = difference ==0 ;
+			converged = difference == 0;
 		}
-			
+		
+		//Print the clusters
 		for(Cluster c: clusters){
-			System.out.println("Center of cluster " + c.getMean());
-			System.out.println("Points in cluster " + c.getPoints().size());
+			System.out.println("Centroid: " + c);
 		}
 	}
 	
