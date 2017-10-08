@@ -1,10 +1,9 @@
-# Artificial Intelligence
-Some elementary AI Techniques
+# Classification Algorithms
 
-Techniques covered:  
+Various elementary classification algorithms implemented in java (and also K-Means clustering)
 
 * [K Nearest Neighbours](https://github.com/ben-ix/ai/tree/master/NearestNeighbours)
-* [K Means Clustering](https://github.com/ben-ix/ai/tree/master/cluster)
 * [Decision Trees](https://github.com/ben-ix/ai/tree/master/DecisionTree)
 * [Perceptrons](https://github.com/ben-ix/ai/tree/master/Perceptron)
 * [Naive Bayes](https://github.com/ben-ix/ai/tree/master/NaiveBayes)
+* [K Means Clustering](https://github.com/ben-ix/ai/tree/master/cluster)
