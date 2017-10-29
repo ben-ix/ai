@@ -1,6 +1,6 @@
 # Classification Algorithms
 
-Various elementary classification algorithms implemented in java (and also K-Means clustering)
+Various elementary classification algorithms (and also K-Means clustering) implemented in Java
 
 * [K Nearest Neighbours](https://github.com/ben-ix/ai/tree/master/NearestNeighbours)
 * [Decision Trees](https://github.com/ben-ix/ai/tree/master/DecisionTree)
